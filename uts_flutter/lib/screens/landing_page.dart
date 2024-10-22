@@ -23,7 +23,7 @@ class LandingPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   const Text(
-                    'Welcome to My App',
+                    'Welcome to Pinjol Club',
                     style: TextStyle(
                       fontSize: 32,
                       fontWeight: FontWeight.bold,
@@ -32,7 +32,7 @@ class LandingPage extends StatelessWidget {
                   ),
                   const SizedBox(height: 20),
                   const Text(
-                    'Your one-stop solution for all your needs.',
+                    'Your one-stop solution for all your needs money.',
                     style: TextStyle(
                       fontSize: 18,
                       color: Colors.black54,
