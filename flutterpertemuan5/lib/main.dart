@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'basic_widgets/text_widget.dart'; //untuk memanggil file atau fungsi lain diluar foldernya
+import 'basic_widgets/image_widget.dart'; //untuk memanggil file atau fungsinya diluar folder
+import 'basic_widgets/loading_cupertino.dart'; //untuk memanggil file atau fungsinya diluar folder
+import 'basic_widgets/fab_widget.dart'; //untuk memanggil file atau fungsinya diluar folder
 
 void main() {
   runApp(const MyApp());
@@ -105,11 +109,12 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
+            const LoadingCupertino(),
+            const MyTextWidget(),
+            const MyImageWidget(),
+            const FabWidget(),
             Text(
-              '$_counter',
+              '$_counter'
               style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],

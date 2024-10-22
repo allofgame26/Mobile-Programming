@@ -1,5 +1,3 @@
-import 'package:pertemuan4/pertemuan4.dart' as pertemuan4;
-
 void main(List<String> arguments) {
   // var list = [1, 2, 3];
   // assert(list.length == 3);
@@ -12,7 +10,7 @@ void main(List<String> arguments) {
   // print(list[1]);
 
   // Praktikum 1
-  
+
   // final List<dynamic> list = List.filled(5, null); //Mendeklarasi list final
 
   // list[1] = 'Rizki Arya Prayoga';
@@ -29,8 +27,8 @@ void main(List<String> arguments) {
   print(halogens);
 
   var names1 = <String>{};
-  Set<String> names2 = {}; // This works, too.
-  var names3 = {}; // Creates a map, not a set.
+  // This works, too.
+  // Creates a map, not a set.
 
   names1.add("Rizki Arya Prayoga");
   names1.add("2141762051");
